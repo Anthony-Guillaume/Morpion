@@ -13,5 +13,4 @@ export class Cell extends React.Component
         <button id={this.props.id} onClick={this.handleClick} disabled={this.props.disabled}> {this.props.symbol} </button>
       )
   }
-
 }
